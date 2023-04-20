@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    color: azure;
+    /* color: #E4E9F7; */
+}
+h1{
+    color: rgb(84, 83, 83);
+    letter-spacing: 2.0px;
+    text-align: center;
+    margin-top:20px;
+}
+
+main{
+    background-color: #FFF;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+
+    /* border: 2px solid rgba(255,255,255,.5); */
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    padding: 20px;
+}
+
+main img{
+    margin-top: 20px;
+}
+
+main .name{
+    color: rgb(84, 83, 83);
+    font-weight: bold;
+    letter-spacing: 2.0px;
+    margin: 10px 0;
+}
+main .position{
+    margin-bottom: 10px;
+    color: rgb(112, 159, 240);
+    letter-spacing: 1.5px;
+    
+}
+
+.operate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.jump-icon .jump{
+    cursor: pointer;
+}
+
+.operate button{
+    margin-top: 15px;
+    border: 1px solid rgb(112, 159, 240);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color:rgb(112, 159, 240);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+main p{
+    color: rgb(149, 151, 152);
+}
+
+
