@@ -1,3 +1,3 @@
 # JAVASCRIPT-our-reviews
 
-<img src="screenshot.PNG" alt="app screenshot" width="300px">
+<img src="images/screenshot.PNG" alt="app screenshot" width="500px">
